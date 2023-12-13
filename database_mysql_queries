@@ -1,3 +1,7 @@
+-- Choose or create the database
+CREATE DATABASE IF NOT EXISTS hotel_management_system;
+USE hotel_management_system;
+
 -- 1. hotel_1
 CREATE TABLE hotel_1 (
     HotelID INT(11) PRIMARY KEY,
